@@ -1,0 +1,10 @@
+/* http://clang.llvm.org/docs/Modules.html#module-maps */
+
+framework module RFTemplate
+{
+    umbrella header "RFTemplate.h"
+    
+    explicit module * {
+        export *
+    }
+}
